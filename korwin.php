@@ -11,6 +11,6 @@ function korwin () {
            $korwin3[array_rand($korwin3)]." ".
            $korwin4[array_rand($korwin4)]." ".
            $korwin5[array_rand($korwin5)]." ".
-           $korwin6[array_rand($korwin6)];
+           $korwin6[array_rand($korwin6)]."\n";
 }
 echo korwin();
